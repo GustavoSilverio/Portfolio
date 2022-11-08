@@ -8,7 +8,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  font-weight: normal;
 }
 
 body {
@@ -29,7 +28,7 @@ a {
   width: 80%;
   display: flex;
   margin: 0 auto;
-  max-height: calc(100vh - 250px);
+  min-height: calc(100vh - 250px);
   margin-top: 10rem;
 }
 
