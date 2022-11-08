@@ -1,9 +1,18 @@
+import React from 'react';
+
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello portfolio !</h1>
+
+      <Navbar />
+      <div className="container">
+        <Home />
+      </div>
+
     </div>
   );
 }
