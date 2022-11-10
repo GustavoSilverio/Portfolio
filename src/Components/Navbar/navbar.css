@@ -10,6 +10,7 @@ nav {
     position: fixed;
     z-index: 1;
     top: 0;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -24,17 +25,22 @@ ul {
 }
 
 ul li {
-    background-color: #444;
-    height: auto;
-    width: auto;
-    padding: 10px;
-    border-radius: 5px;
     cursor: pointer;
     transition: .2s;
+    padding: 10px;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
 }
 
 ul li:hover {
-    background-color: #555;
+    background-color: #fff;
+    color: #000;
+}
+
+ul .contact:hover {
+    background-color: var(--primary);
+    color: #000;
 }
 
 .greeting {

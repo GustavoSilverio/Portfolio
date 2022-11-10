@@ -27,13 +27,13 @@ h2 {
     color: #ff357f;
 }
 
-.name-footer {
+.name-footer a {
     color: var(--primary);
     cursor: pointer;
     transition: .2s;
 }
 
-.name-footer:hover {
+.name-footer a:hover {
     color: #ff357f;
 }
 

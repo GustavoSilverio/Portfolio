@@ -14,13 +14,21 @@
     align-items: center;
 }
 
-.about p {
-    width: 27.5rem;
+.about h1 {
+    font-weight: 600;
 }
 
 .about h2 {
     margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 18px;
 }
+
+.about p {
+    width: 27.5rem;
+    font-weight: 300;
+}
+
 
 .home {
     display: flex;
