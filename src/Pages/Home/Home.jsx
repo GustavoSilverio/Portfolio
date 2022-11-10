@@ -21,7 +21,7 @@ const Home = () => {
                         <p>Sou um desenvolvedor iniciante com o objetivo de me tornar um <span className='color'>Full-stack dev</span>, tenho um amplo conhecimento em <span className='color'>HTML</span> E <span className='color'>Css</span>, e estou estudando <span className='color'>Javascript/React</span>, posso te oferecer sites bem interativos e animados, como tambem posso fazer sites “Mordernos”, Minimalistas mas muito bonitos !. No momento estudo na <span className='color'>Etec MCM</span> cursando Programação,e tambêm tenho um <span className='color'>inglês</span> intermediario podendo conversar tranquilamente.</p>
                     </div>
                 </div>
-                <div class="download">
+                <div className="download">
                     <a href={Curriculo} download="Gustavo Oliveira">Download C.V.</a>
                 </div>
             </div>

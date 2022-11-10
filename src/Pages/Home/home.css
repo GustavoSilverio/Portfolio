@@ -5,6 +5,12 @@
 
 .color {
     color: var(--primary);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.color:hover {
+    color: #ff307c;
 }
 
 .about-me {
