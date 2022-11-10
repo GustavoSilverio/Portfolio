@@ -30,6 +30,9 @@ a {
   margin: 0 auto;
   min-height: calc(100vh - 250px);
   margin-top: 10rem;
+  margin-bottom: 6rem;
+  justify-content: center;
+  align-items: center;
 }
 
 :root {
