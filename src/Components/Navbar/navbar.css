@@ -6,7 +6,7 @@ nav {
     backdrop-filter: blur(2px);
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -56,7 +56,7 @@ ul .contact:hover {
 }
 
 .logo {
-    height: 100px;
+    height: 70px;
     width: auto;
 }
 
